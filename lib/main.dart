@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:movie_app/models/movie.dart';
-import 'package:movie_app/screens/details/details_screen.dart';
 import 'package:movie_app/screens/home/home_screen.dart';
 
 void main() {
@@ -17,9 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(),
-      home: DetailScreen(
-        movie: movies[1],
-      ),
+      home: const HomeScreen(),
     );
   }
 }

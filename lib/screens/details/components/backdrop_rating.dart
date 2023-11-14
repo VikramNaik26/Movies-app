@@ -63,7 +63,7 @@ class BackdropAndRating extends StatelessWidget {
                       ),
                       RichText(
                         text: TextSpan(
-                          style: TextStyle(color: Colors.black),
+                          style: const TextStyle(color: Colors.black),
                           children: [
                             TextSpan(
                               text: '${movie.rating}/',
