@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
       child: Scaffold(
         backgroundColor: Colors.white,
         appBar: buildAppBar(),
-        body: Body(),
+        body: const Body(),
       ),
     );
   }
